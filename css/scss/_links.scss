@@ -1,0 +1,23 @@
+// Text links
+a{
+	color:$primary-color;
+	&:hover,&:focus{
+		text-decoration:none;
+	}
+}
+
+.btn-primary{
+	@include border-radius($br);
+	background:$primary-color;
+	color:#fff;
+	padding:0 20px;
+	line-height:3;
+	display:inline-block;
+	text-decoration:none;
+	font-size:18px;
+	font-weight:bold;
+	border:none;
+	&:hover{
+		background:$secondary-color;
+	}
+}
